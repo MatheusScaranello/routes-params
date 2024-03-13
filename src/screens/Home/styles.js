@@ -14,6 +14,19 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
   },
+  button: {
+    backgroundColor: "#04d361",
+    padding: 20,
+    borderRadius: 8,
+    width: 200,
+    alignItems: "center",
+    marginTop: 20,
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
 });
 
 export default styles;
