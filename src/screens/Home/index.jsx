@@ -21,7 +21,7 @@ export default function Home() {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate("Profile", { User })}
+        onPress={() => navigation.navigate("Profile", { User: User[0] })}
       >
         <Text style={styles.buttonText}>Go to Profile</Text>
       </TouchableOpacity>
